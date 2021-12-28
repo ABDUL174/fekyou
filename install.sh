@@ -13,18 +13,10 @@ WHITE='\e[37m'
 NC='\e[0m'
 purpal='\033[35m'
 
-banner() {
-	cat <<- EOF
-		${ORANGE}
-        ${ORANGE}       ____  ___    __   _____ ____  __  _______     
-        ${ORANGE}      / __ \/   |  / /  |__  // __ \/  |/  / __ \    
-        ${ORANGE}     / /_/ / /| | / /    /_ </ /_/ / /|_/ / / / /    
-        ${ORANGE}    / ____/ ___ |/ /______/ / _, _/ /  / / /_/ /     
-        ${ORANGE}   /_/   /_/  |_/_____/____/_/ |_/_/  /_/\____/
+!#/bin/bash
+pkg install figlet -y
+figlet PAL3RMO
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by PAL3RMO (PAL3RMO)${WHITE}
-	EOF
-}                               
 
 echo -e "${BLUE}                                    https://github.com/ABDUL174/fekyou ${NC}"
 
@@ -82,7 +74,7 @@ if [ $choice == 1 ]; then
         echo "";
         echo -e $ORANGE "		[+]+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[+]"
         echo 		"		[+]						      		[+]"
-        echo -e $ORANGE  "		[+]     ✔✔✔ Now Just Type In Terminal (sudo python3 fekyou.py
+        echo -e $ORANGE  "		[+]     ✔✔✔ Now Just Type In Terminal (sudo python3 fekyou.py)
 		) ✔✔✔ 	[+]"
         echo 		"		[+]						      		[+]"
         echo -e $ORANGE "		[+]+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[+]"
