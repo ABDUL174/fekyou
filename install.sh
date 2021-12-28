@@ -14,9 +14,9 @@ NC='\e[0m'
 purpal='\033[35m'
 
 !#/bin/bash
-pkg install figlet -y
+sudo apt install figlet -y
 figlet PAL3RMO
-
+echo -e "${RED}                                     TOOL CREATED BY PAL3RMO
 
 echo -e "${BLUE}                                    https://github.com/ABDUL174/fekyou ${NC}"
 
